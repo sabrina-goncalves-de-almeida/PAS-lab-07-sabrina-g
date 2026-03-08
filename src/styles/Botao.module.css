@@ -1,0 +1,23 @@
+.btnRapido {
+    background-color: #6300b5; 
+    color: white;
+    margin: 10px 30px;
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+}
+
+.btnRapido:hover {
+    background-color: #32005b;
+    color: #eecdff;
+    box-shadow: 0 0 0 0.2rem #9900ff1a; 
+}
+
+.btnRapido:active {
+    transform: scale(0.98);
+}

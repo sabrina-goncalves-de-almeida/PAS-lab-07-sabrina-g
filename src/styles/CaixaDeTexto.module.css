@@ -1,0 +1,24 @@
+.textoDaLabel {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 20px;
+}
+
+.inputDoForm {
+    border-radius: 3px;
+    border: 2px solid #3719707d;
+    background-color: #f9f9f9ba;
+    box-shadow: none;
+    transition: all 0.3s;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.inputDoForm:focus {
+    border-color: #6200ff;
+    box-shadow: 0 0 0 0.2rem rgba(144, 0, 255, 0.1);
+    background-color: #fff;
+}
